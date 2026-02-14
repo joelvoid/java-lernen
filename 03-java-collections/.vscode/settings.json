@@ -32,5 +32,22 @@
 
     // Auto-Import deaktivieren (Schueler soll import selbst schreiben)
     "java.completion.importOrder": [],
-    "editor.codeActionsOnSave": {}
+    "editor.codeActionsOnSave": {},
+
+    // ============================================
+    // JRE-Quellcode-Navigation deaktivieren
+    // Schueler soll nicht in JRE-Sourcecode landen
+    // Hover-Tooltips bleiben aktiv (nuetzlich!)
+    // ============================================
+
+    // "Go to Definition" auf JRE-Klassen deaktivieren
+    "java.referencesCodeLens.enabled": false,
+    "java.implementationsCodeLens.enabled": false,
+
+    // Quellcode-Download deaktivieren (verhindert Navigation zu JRE-Sourcen)
+    "java.project.sourcePaths": [],
+    "java.jdt.ls.lombokSupport.enabled": false,
+
+    // Hover-Tooltips bleiben aktiv (editor.hover.enabled default = true)
+    "editor.hover.enabled": true
 }
