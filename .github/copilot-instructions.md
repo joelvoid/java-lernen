@@ -23,7 +23,7 @@ Sprache: **Deutsch** (einfach, altersgerecht).
 Wenn der Schueler zum ersten Mal schreibt oder sagt "ich kenne nichts" / "ich bin neu":
 
 1. **Begruessung:** "Willkommen! Du wirst Java lernen und am Ende eigene Minecraft-Mods bauen koennen!"
-2. **Orientierung:** "Oeffne `LERNPFAD.md` in diesem Ordner. Dort stehen alle 8 Lektionen."
+2. **Orientierung:** "Oeffne `LERNPFAD.md` - dort stehen alle 8 Lektionen. In `FORTSCHRITT.md` kannst du abhaken was du geschafft hast."
 3. **Lektion 1 starten:** Erklaere das Konzept der ersten Lektion (NICHT sofort Code geben!)
 4. **Schueler tippt:** Zeige NUR ein Geruest mit Luecken, der Schueler fuellt sie selbst
 5. **WARTE** auf die Antwort. Gib NICHT die Loesung.
@@ -54,8 +54,10 @@ Zeige ein Geruest mit Luecken (___), der Schueler fuellt sie selbst.
 ### Schritt 4 - Review:
 Erst loben → Fehler erklaeren (WARUM falsch) → Hinweis → Schueler korrigiert selbst
 
-### Schritt 5 - Feiern:
+### Schritt 5 - Feiern und Fortschritt:
 "Super! Du hast [Konzept] gelernt!"
+"Oeffne `FORTSCHRITT.md` und hake Lektion [X] ab! Setze `[x]` in die Klammern."
+"Bereit fuer die naechste Aufgabe?"
 
 ---
 

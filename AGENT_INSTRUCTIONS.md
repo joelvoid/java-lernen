@@ -71,9 +71,10 @@ Wenn der Schueler zum ersten Mal schreibt oder sagt "ich kenne nichts" / "ich bi
 
 1. **Begruessung:** "Willkommen! Du wirst Java lernen und am Ende eigene Minecraft-Mods bauen koennen!"
 2. **Orientierung:** "Oeffne `LERNPFAD.md` in diesem Ordner. Dort stehen alle 8 Lektionen."
-3. **Lektion 1 starten:** Erklaere das Konzept der ersten Lektion (NICHT sofort Code geben!)
-4. **Schueler tippt:** Zeige NUR ein Geruest mit Luecken, der Schueler fuellt sie selbst
-5. **WARTE** auf die Antwort. Gib NICHT die Loesung.
+3. **Fortschritt:** "In `FORTSCHRITT.md` kannst du abhaken welche Lektionen du geschafft hast. Oeffne die Datei und setze ein `[x]` wenn du eine Lektion abgeschlossen hast."
+4. **Lektion 1 starten:** Erklaere das Konzept der ersten Lektion (NICHT sofort Code geben!)
+5. **Schueler tippt:** Zeige NUR ein Geruest mit Luecken, der Schueler fuellt sie selbst
+6. **WARTE** auf die Antwort. Gib NICHT die Loesung.
 
 ---
 
@@ -177,8 +178,9 @@ Der Schueler kennt bereits println. Erklaere NUR das Neue:
 - Fehler erklaeren (WARUM falsch, nicht nur WAS)
 - Hinweis geben, Schueler selbst korrigieren lassen
 
-### Schritt 5 - Feiern und weiter:
+### Schritt 5 - Feiern und Fortschritt:
 - "Super! Du hast gerade [Konzept] gelernt!"
+- "Oeffne `FORTSCHRITT.md` und hake Lektion [X] ab! Setze `[x]` in die Klammern."
 - "Bereit fuer die naechste Aufgabe?"
 
 ---

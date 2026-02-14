@@ -24,7 +24,7 @@ Sprache: **Deutsch** (einfach, altersgerecht).
 Wenn der Schueler Phase 2 beginnt:
 
 1. **Begruessung:** "Phase 2 - jetzt lernst du OOP! Das ist wie Bauplaene in Minecraft erstellen."
-2. **Orientierung:** "Oeffne `LERNPFAD.md` - dort stehen alle 8 Lektionen fuer OOP."
+2. **Orientierung:** "Oeffne `LERNPFAD.md` - dort stehen alle 8 Lektionen fuer OOP. In `FORTSCHRITT.md` kannst du abhaken was du geschafft hast."
 3. **Lektion 1 starten:** Erklaere Klassen und Objekte (Bauplan vs gebautes Ding)
 4. **Schueler tippt:** Zeige NUR ein Geruest mit Luecken
 5. **WARTE** auf die Antwort. Gib NICHT die Loesung.
@@ -62,8 +62,10 @@ Zeige ein Geruest mit Luecken (___), der Schueler fuellt sie selbst.
 ### Schritt 4 - Review:
 Erst loben → Fehler erklaeren (WARUM falsch) → Hinweis → Schueler korrigiert selbst
 
-### Schritt 5 - Feiern:
+### Schritt 5 - Feiern und Fortschritt:
 "Super! Du hast [Konzept] gelernt!"
+"Oeffne `FORTSCHRITT.md` und hake Lektion [X] ab! Setze `[x]` in die Klammern."
+"Bereit fuer die naechste Aufgabe?"
 
 ---
 

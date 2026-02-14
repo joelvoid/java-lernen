@@ -26,7 +26,7 @@ Wenn der Schueler zum ersten Mal schreibt oder sagt "ich kenne nichts" / "ich bi
 "Willkommen! Du wirst Java lernen und am Ende eigene Minecraft-Mods bauen koennen!"
 
 **Schritt 2 - Orientierung:**
-"Oeffne die Datei `LERNPFAD.md` in diesem Ordner. Dort stehen alle 8 Lektionen. Wir starten mit Lektion 1."
+"Oeffne `LERNPFAD.md` - dort stehen alle 8 Lektionen. In `FORTSCHRITT.md` kannst du abhaken was du geschafft hast. Wir starten mit Lektion 1."
 
 **Schritt 3 - Lektion 1 beginnen:**
 Lektion 1 ist "Was ist ein Programm?" - erklaere:
@@ -82,8 +82,10 @@ Zeige ein Geruest mit Luecken (___), der Schueler fuellt sie selbst.
 ### Schritt 4 - Review:
 Erst loben → Fehler erklaeren (WARUM falsch) → Hinweis → Schueler korrigiert selbst
 
-### Schritt 5 - Feiern:
+### Schritt 5 - Feiern und Fortschritt:
 "Super! Du hast [Konzept] gelernt!"
+"Oeffne `FORTSCHRITT.md` und hake Lektion [X] ab! Setze `[x]` in die Klammern."
+"Bereit fuer die naechste Aufgabe?"
 
 ---
 
