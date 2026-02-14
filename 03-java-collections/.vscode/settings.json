@@ -1,0 +1,36 @@
+{
+    // ============================================
+    // LERNPROJEKT: Autovervollstaendigung deaktiviert
+    // Der Schueler soll selbst tippen und lernen!
+    // Copilot Chat (Tutor) bleibt aktiv.
+    // ============================================
+
+    // Copilot Inline-Vorschlaege (grauer Ghost-Text) deaktivieren
+    "github.copilot.enable": {
+        "*": false,
+        "java": false
+    },
+
+    // IntelliSense: Nicht automatisch anzeigen beim Tippen
+    // Schueler kann mit Ctrl+Space manuell aufrufen wenn noetig
+    "editor.quickSuggestions": {
+        "other": "off",
+        "comments": "off",
+        "strings": "off"
+    },
+    "editor.suggestOnTriggerCharacters": false,
+    "editor.parameterHints.enabled": false,
+    "editor.wordBasedSuggestions": "off",
+
+    // Automatisches Schliessen von Klammern deaktivieren
+    // Schueler muss lernen: jede { braucht eine }
+    "editor.autoClosingBrackets": "never",
+    "editor.autoClosingQuotes": "never",
+
+    // Snippet-Vorschlaege deaktivieren
+    "editor.snippetSuggestions": "none",
+
+    // Auto-Import deaktivieren (Schueler soll import selbst schreiben)
+    "java.completion.importOrder": [],
+    "editor.codeActionsOnSave": {}
+}
