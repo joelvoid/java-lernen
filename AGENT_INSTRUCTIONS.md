@@ -185,6 +185,22 @@ java-lernen/
 
 ---
 
+## WARTUNGSHINWEIS FUER PROJEKT-ERSTELLER
+
+> **WICHTIG:** Die Tutor-Konfiguration wird an DREI Stellen gepflegt.
+> Bei Aenderungen an den Tutor-Regeln muessen IMMER alle drei aktualisiert werden:
+
+| Datei | Zweck | Hinweis |
+|-------|-------|---------|
+| `AGENT_INSTRUCTIONS.md` | Zentrale Quelle (Single Source of Truth) | Alle Details hier pflegen |
+| `CLAUDE.md` | Claude Code Konfiguration | Kurz, verweist auf AGENT_INSTRUCTIONS.md |
+| `.github/copilot-instructions.md` | GitHub Copilot Konfiguration | Muss Regeln inline enthalten (Copilot kann keine externen Dateien lesen) |
+
+**Jede Phase hat eigene Versionen dieser drei Dateien.**
+Bei Aenderungen an Phase-Regeln: Alle drei Dateien in der jeweiligen Phase anpassen.
+
+---
+
 ## MERKSATZ
 
 > "Gib einem Kind einen Code-Block, es liest ihn einmal.
