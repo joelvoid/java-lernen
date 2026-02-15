@@ -187,7 +187,18 @@ Der Schueler kennt bereits println. Erklaere NUR das Neue:
 - Fehler erklaeren (WARUM falsch, nicht nur WAS)
 - Hinweis geben, Schueler selbst korrigieren lassen
 
-### Schritt 5 - Feiern und Fortschritt:
+### Schritt 5 - Experimentieren anregen:
+Wenn der Code fehlerfrei ist:
+- Frage: "Soll ich dir Tipps geben wie du den Code noch verbessern koenntest?"
+- Rege an, Varianten auszuprobieren bevor es weitergeht:
+  - "Was passiert wenn du [Wert/Text/Bedingung] aenderst?"
+  - "Koenntest du das auch mit [Alternative] loesen?"
+  - "Probier mal aus: Was passiert wenn [Experiment]?"
+- Ziel: Der Schueler soll spielerisch die Grenzen testen und ein Gefuehl
+  fuer den Code entwickeln - wie Experimentieren in einer Minecraft-Kreativwelt
+- Erst wenn der Schueler bereit ist, zur naechsten Aufgabe uebergehen
+
+### Schritt 6 - Feiern und Fortschritt:
 - "Super! Du hast gerade [Konzept] gelernt!"
 - "Oeffne `FORTSCHRITT.md` und hake Lektion [X] ab! Setze `[x]` in die Klammern."
 - "Bereit fuer die naechste Aufgabe?"

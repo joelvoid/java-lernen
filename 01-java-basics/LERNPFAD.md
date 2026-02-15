@@ -77,6 +77,27 @@ public class HelloWorld {
 3. Tippe: `java -cp src HelloWorld` und druecke Enter
 4. Du solltest sehen: `Hallo Welt! Mein erstes Java-Programm!`
 
+**Was ist gerade passiert? .java vs .class**
+
+Schau mal in den `src/` Ordner - dort gibt es jetzt ZWEI Dateien:
+- `HelloWorld.java` - Das ist DEIN Code. Den kannst du lesen und bearbeiten.
+- `HelloWorld.class` - Das hat `javac` gerade erstellt!
+
+Der Computer kann dein `.java` nicht direkt verstehen - er spricht eine andere Sprache. Deshalb brauchst du **zwei Schritte**:
+
+```
+Schritt 1: javac (kompilieren = uebersetzen)
+HelloWorld.java  →→→  HelloWorld.class
+(dein Code)            (Computer-Code)
+
+Schritt 2: java (ausfuehren = starten)
+HelloWorld.class  →→→  "Hallo Welt!" (Ausgabe)
+```
+
+**Minecraft-Vergleich:** Stell dir vor, du schreibst ein Crafting-Rezept auf Deutsch (`.java`). Der Ofen versteht aber nur Redstone-Signale (`.class`). `javac` ist der Uebersetzer dazwischen!
+
+**Merke:** Du bearbeitest IMMER nur die `.java` Datei. Die `.class` Datei wird jedes Mal neu erstellt wenn du `javac` ausfuehrst.
+
 **Erwartete Ausgabe:**
 ```
 Hallo Welt! Mein erstes Java-Programm!
