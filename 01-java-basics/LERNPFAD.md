@@ -115,6 +115,11 @@ Ich will Minecraft-Mods programmieren!
 
 **Hinweis:** Der Klassenname MUSS gleich heissen wie die Datei! `MeinStart.java` braucht `public class MeinStart`.
 
+**So fuehrst du es aus:**
+1. Oeffne das Terminal (Strg + OE)
+2. Kompilieren: `javac src/MeinStart.java`
+3. Starten: `java -cp src MeinStart`
+
 ### Quiz Lektion 1
 
 **Frage 1:** Was macht `System.out.println()`?
@@ -205,6 +210,11 @@ Spielstunden: [eine Zahl]
 - Nutze `System.out.println()` fuer jede Zeile
 - Die `===` Linie kannst du einfach als Text schreiben
 
+**So fuehrst du es aus:**
+1. Oeffne das Terminal (Strg + OE)
+2. Kompilieren: `javac src/Steckbrief.java`
+3. Starten: `java -cp src Steckbrief`
+
 ### Aufgabe 2.2: ASCII-Art
 
 **Ziel:** Erstelle `src/AsciiArt.java` und zeichne ein Creeper-Gesicht mit Zeichen.
@@ -224,6 +234,11 @@ Spielstunden: [eine Zahl]
 
 **Hinweis:** Jede Zeile ist ein eigenes `System.out.println()`.
 
+**So fuehrst du es aus:**
+1. Oeffne das Terminal (Strg + OE)
+2. Kompilieren: `javac src/AsciiArt.java`
+3. Starten: `java -cp src AsciiArt`
+
 ### Aufgabe 2.3: print vs println
 
 **Ziel:** Erstelle `src/PrintTest.java`. Experimentiere mit `print` und `println`.
@@ -239,6 +254,11 @@ Hallo     Welt
 - Zeile 1: Zwei separate `println` oder ein `println` mit Leerzeichen
 - Zeile 2: Zwei `print` ohne Leerzeichen, dann ein `println()`
 - Zeile 3: Nutze `\t` fuer den Tabulator
+
+**So fuehrst du es aus:**
+1. Oeffne das Terminal (Strg + OE)
+2. Kompilieren: `javac src/PrintTest.java`
+3. Starten: `java -cp src PrintTest`
 
 ### Quiz Lektion 2
 
@@ -335,6 +355,11 @@ Erfahrung: [deine XP]
 Am Leben: true
 ```
 
+**So fuehrst du es aus:**
+1. Oeffne das Terminal (Strg + OE)
+2. Kompilieren: `javac src/SpielerProfil.java`
+3. Starten: `java -cp src SpielerProfil`
+
 ### Aufgabe 3.2: Variablen aendern
 
 **Ziel:** Erstelle `src/SchadenTest.java`. Ein Spieler nimmt Schaden und die Werte aendern sich.
@@ -357,6 +382,11 @@ Du faellst! -5 Schaden
 Leben jetzt: 8
 ```
 
+**So fuehrst du es aus:**
+1. Oeffne das Terminal (Strg + OE)
+2. Kompilieren: `javac src/SchadenTest.java`
+3. Starten: `java -cp src SchadenTest`
+
 ### Aufgabe 3.3: Text zusammenbauen
 
 **Ziel:** Erstelle `src/ItemInfo.java`. Baue Saetze mit Variablen zusammen.
@@ -378,6 +408,11 @@ Das Diamant-Schwert macht 7 Schaden und hat 1561 Haltbarkeit.
 
 **Hinweis:** Die letzte Zeile baust du mit `+` zusammen:
 `System.out.println("Das " + item + " macht " + schaden + " Schaden...");`
+
+**So fuehrst du es aus:**
+1. Oeffne das Terminal (Strg + OE)
+2. Kompilieren: `javac src/ItemInfo.java`
+3. Starten: `java -cp src ItemInfo`
 
 ### Quiz Lektion 3
 
@@ -469,6 +504,8 @@ Gegner-Ruestung: -5
 Effektiver Schaden: 5
 ```
 
+**Ausfuehren:** `javac src/Schadensrechner.java` → `java -cp src Schadensrechner`
+
 ### Aufgabe 4.2: XP-Rechner
 
 **Ziel:** Erstelle `src/XPRechner.java`. Berechne wie viel XP du fuer verschiedene Aktionen bekommst.
@@ -497,6 +534,8 @@ Creeper getoetet: 3 (je 5 XP) = 15 XP
 Gesamt-XP: 100 XP
 ```
 
+**Ausfuehren:** `javac src/XPRechner.java` → `java -cp src XPRechner`
+
 ### Aufgabe 4.3: Crafting-Rechner
 
 **Ziel:** Erstelle `src/CraftingRechner.java`. Berechne wie viele Items du craften kannst.
@@ -516,6 +555,8 @@ Barren pro Schwert: 2
 Du kannst 11 Schwerter craften!
 Uebrige Barren: 1
 ```
+
+**Ausfuehren:** `javac src/CraftingRechner.java` → `java -cp src CraftingRechner`
 
 ### Quiz Lektion 4
 
@@ -614,6 +655,8 @@ Leben: 15
 Status: Guter Zustand. Weitermachen!
 ```
 
+**Ausfuehren:** `javac src/Lebensanzeige.java` → `java -cp src Lebensanzeige`
+
 ### Aufgabe 5.2: Mob-Erkennung
 
 **Ziel:** Erstelle `src/MobErkennung.java`. Bestimme den Mob-Typ anhand seiner Eigenschaften.
@@ -630,6 +673,8 @@ Status: Guter Zustand. Weitermachen!
 - Sonst: "Das ist ein Zombie!"
 
 **Teste verschiedene Kombinationen!**
+
+**Ausfuehren:** `javac src/MobErkennung.java` → `java -cp src MobErkennung`
 
 ### Aufgabe 5.3: Tageszeit-System
 
@@ -650,6 +695,8 @@ Status: Guter Zustand. Weitermachen!
 Ticks: 6000
 Tageszeit: Morgen - Die Sonne geht auf. Mobs verschwinden.
 ```
+
+**Ausfuehren:** `javac src/Tageszeit.java` → `java -cp src Tageszeit`
 
 ### Quiz Lektion 5
 
@@ -743,6 +790,8 @@ Fertig! 10 Bloecke platziert.
 
 **Hinweis:** Die Blocknummer ist `i + 1` (weil i bei 0 startet).
 
+**Ausfuehren:** `javac src/BlockPlatzierer.java` → `java -cp src BlockPlatzierer`
+
 ### Aufgabe 6.2: Countdown
 
 **Ziel:** Erstelle `src/Countdown.java`. Zaehle von 10 rueckwaerts bis 0.
@@ -770,6 +819,8 @@ for (int i = 10; i >= 0; i--) {
 
 **Tipp:** Fuer die letzte Zeile (bei i == 0) brauchst du ein `if` in der Schleife!
 
+**Ausfuehren:** `javac src/Countdown.java` → `java -cp src Countdown`
+
 ### Aufgabe 6.3: Multiplikationstabelle
 
 **Ziel:** Erstelle `src/MultiTabelle.java`. Zeige die Multiplikationstabelle fuer eine Zahl.
@@ -790,6 +841,8 @@ for (int i = 10; i >= 0; i--) {
 7 x 9 = 63
 7 x 10 = 70
 ```
+
+**Ausfuehren:** `javac src/MultiTabelle.java` → `java -cp src MultiTabelle`
 
 ### Quiz Lektion 6
 
@@ -896,6 +949,8 @@ Aktives Item: Diamant-Schwert
 
 **Hinweis:** Nutze eine for-Schleife! Die Anzeige-Nummer ist `i + 1`.
 
+**Ausfuehren:** `javac src/Hotbar.java` → `java -cp src Hotbar`
+
 ### Aufgabe 7.2: Mob-Spawner
 
 **Ziel:** Erstelle `src/MobSpawner.java`. Verwalte verschiedene Mobs mit Arrays.
@@ -928,6 +983,8 @@ for (int i = 0; i < mobLeben.length; i++) {
 }
 ```
 
+**Ausfuehren:** `javac src/MobSpawner.java` → `java -cp src MobSpawner`
+
 ### Aufgabe 7.3: Inventar-Suche
 
 **Ziel:** Erstelle `src/InventarSuche.java`. Suche nach einem bestimmten Item im Inventar.
@@ -957,6 +1014,8 @@ Item nicht gefunden!
 ```java
 if (items[i].equals(gesucht)) {
 ```
+
+**Ausfuehren:** `javac src/InventarSuche.java` → `java -cp src InventarSuche`
 
 ### Quiz Lektion 7
 
@@ -1074,6 +1133,8 @@ Held am Leben? true
 Zombie am Leben? true
 ```
 
+**Ausfuehren:** `javac src/KampfFunktionen.java` → `java -cp src KampfFunktionen`
+
 ### Aufgabe 8.2: Werkzeug-Rechner
 
 **Ziel:** Erstelle `src/WerkzeugRechner.java`. Berechne die Effizienz verschiedener Werkzeuge.
@@ -1092,6 +1153,8 @@ Block: Stein
   Eisenspitzhacke: 0.5 Sekunden
 Bestes Werkzeug: Eisenspitzhacke
 ```
+
+**Ausfuehren:** `javac src/WerkzeugRechner.java` → `java -cp src WerkzeugRechner`
 
 ### Aufgabe 8.3: Mini-Spielsimulator
 
@@ -1121,6 +1184,8 @@ Steve: 3 Siege
 Zombie: 1 Siege
 Gewinner: Steve!
 ```
+
+**Ausfuehren:** `javac src/MiniSpiel.java` → `java -cp src MiniSpiel`
 
 ### Quiz Lektion 8
 

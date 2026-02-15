@@ -27,6 +27,12 @@
 
 ---
 
+## Programm ausfuehren
+
+Wie in Phase 2: Klicke ▶ oben in der Datei mit `main()` (ueber `public static void main`), oder nutze das Terminal.
+
+---
+
 ## Lektion 1: ArrayList - Dynamische Listen (vs Array)
 
 ### Konzept
@@ -116,6 +122,7 @@ Block 3: Kies
 
 **Kompilieren:** `javac src/ErsteArrayList.java`
 **Starten:** `java -cp src ErsteArrayList`
+**Oder mit VS Code:** Klicke ▶ oben in `ErsteArrayList.java`.
 
 **Hinweis:** Denke an `import java.util.ArrayList;` ganz oben!
 
@@ -146,6 +153,8 @@ ArrayList hat 5 Items
 [4] Diamant
 ```
 
+**Ausfuehren:** Klicke ▶ oben in `ListeVsArray.java`.
+
 ### Aufgabe 1.3: Mob-Spawner Liste
 
 **Ziel:** Erstelle `src/MobSpawner.java` - Eine Liste von Mobs die spawnen.
@@ -169,6 +178,8 @@ Gesamt: 6 Mobs koennen spawnen
 ```
 
 **Hinweis:** Benutze eine for-Schleife: `for (int i = 0; i < spawnListe.size(); i++)` und gib `(i + 1) + ". " + spawnListe.get(i)` aus.
+
+**Ausfuehren:** Klicke ▶ oben in `MobSpawner.java`.
 
 ### Quiz Lektion 1
 
@@ -316,6 +327,8 @@ Goldapfel an Position 1 eingefuegt
 Anzahl Items: 5
 ```
 
+**Ausfuehren:** Klicke ▶ oben in `InventarManager.java`.
+
 ### Aufgabe 2.2: Item Sucher
 
 **Ziel:** Erstelle `src/ItemSucher.java` - Suche Items in einer Liste.
@@ -342,6 +355,8 @@ Position von Diamant: -1 (nicht gefunden!)
 
 **Hinweis:** `indexOf()` gibt `-1` zurueck, wenn das Element nicht in der Liste ist!
 
+**Ausfuehren:** Klicke ▶ oben in `ItemSucher.java`.
+
 ### Aufgabe 2.3: Werkbank Upgrade
 
 **Ziel:** Erstelle `src/WerkbankUpgrade.java` - Ersetze Items durch bessere Versionen.
@@ -367,6 +382,8 @@ Eisen-Werkzeuge: [Eisenschwert, Eisenspitzhacke, Eisenaxt, Eisenschaufel]
 ```
 
 **Hinweis:** Benutze `String.replace("Holz", "Stein")` um Teile eines Strings zu ersetzen! Also: `liste.set(i, liste.get(i).replace("Holz", "Stein"));`
+
+**Ausfuehren:** Klicke ▶ oben in `WerkbankUpgrade.java`.
 
 ### Quiz Lektion 2
 
@@ -528,6 +545,8 @@ Davon Zombies: 3
 
 **Hinweis:** Benutze ein `if` in der for-each Schleife: `if (gegner.equals("Zombie")) { zombieZaehler++; }`
 
+**Ausfuehren:** Klicke ▶ oben in `Kampfbericht.java`.
+
 ### Aufgabe 3.2: Inventar Bewertung
 
 **Ziel:** Erstelle `src/InventarBewertung.java` - Bewerte Items mit for-each.
@@ -556,6 +575,8 @@ Normale Items: 3
 
 **Hinweis:** Benutze `item.startsWith("Diamant")` um zu pruefen ob ein String mit "Diamant" anfaengt!
 
+**Ausfuehren:** Klicke ▶ oben in `InventarBewertung.java`.
+
 ### Aufgabe 3.3: Erz-Zaehler
 
 **Ziel:** Erstelle `src/ErzZaehler.java` - Zaehle verschiedene Erze.
@@ -580,6 +601,8 @@ Wertvolle Erze gefunden: 7
 ```
 
 **Hinweis:** Erstelle fuer jedes Erz eine eigene Zaehlvariable (z.B. `int steinCount = 0;`). "Wertvolle Erze" = alles ausser Stein.
+
+**Ausfuehren:** Klicke ▶ oben in `ErzZaehler.java`.
 
 ### Quiz Lektion 3
 
@@ -730,6 +753,7 @@ Gesamt Schaden: 44
 
 **Kompilieren:** `javac src/Mob.java src/MobArmee.java`
 **Starten:** `java -cp src MobArmee`
+**Oder mit VS Code:** Klicke ▶ oben in `MobArmee.java`.
 
 ### Aufgabe 4.2: Bester Mob finden
 
@@ -756,6 +780,8 @@ Staerkster Mob: Creeper mit 25 Schaden
 ```
 
 **Hinweis:** Erstelle Variablen `String zaehesterName = ""; int maxHP = 0;` und vergleiche in der Schleife: `if (mob.hp > maxHP) { maxHP = mob.hp; zaehesterName = mob.name; }`
+
+**Ausfuehren:** Klicke ▶ oben in `BesterMob.java`.
 
 ### Aufgabe 4.3: Kampf-Simulation
 
@@ -797,6 +823,8 @@ Spieler ueberlebt mit 76 HP
 ```
 
 **Hinweis:** Runden berechnen: `int runden = (mob.hp + spielerSchaden - 1) / spielerSchaden;` (das rundet auf). Schaden am Spieler pro Mob: `runden * mob.schaden`.
+
+**Ausfuehren:** Klicke ▶ oben in `KampfSimulation.java`.
 
 ### Quiz Lektion 4
 
@@ -946,6 +974,7 @@ Rezept fuer Amboss vorhanden? false
 
 **Kompilieren:** `javac src/Rezeptbuch.java`
 **Starten:** `java -cp src Rezeptbuch`
+**Oder mit VS Code:** Klicke ▶ oben in `Rezeptbuch.java`.
 
 ### Aufgabe 5.2: Spieler Statistik
 
@@ -970,6 +999,8 @@ Level: 28
 Mobs pro Tod: 20
 Spielzeit in Stunden: 70
 ```
+
+**Ausfuehren:** Klicke ▶ oben in `SpielerStatistik.java`.
 
 ### Aufgabe 5.3: Erz-Preisliste
 
@@ -998,6 +1029,8 @@ Smaragd: 30 Gold pro Stueck
 
 Gesamtwert: 130 Gold
 ```
+
+**Ausfuehren:** Klicke ▶ oben in `ErzPreisliste.java`.
 
 ### Quiz Lektion 5
 
@@ -1167,6 +1200,8 @@ Pfeil aus dem Sortiment entfernt.
 
 **Hinweis:** Die Reihenfolge der Items kann bei dir anders sein - das ist bei HashMap normal!
 
+**Ausfuehren:** Klicke ▶ oben in `HaendlerSystem.java`.
+
 ### Aufgabe 6.2: Mob Drops Zaehler
 
 **Ziel:** Erstelle `src/MobDrops.java` - Zaehle Mob-Drops mit HashMap.
@@ -1198,6 +1233,8 @@ if (drops.containsKey(drop)) {
     drops.put(drop, 1);
 }
 ```
+
+**Ausfuehren:** Klicke ▶ oben in `MobDrops.java`.
 
 ### Aufgabe 6.3: Verzauberungs-Werkstatt
 
@@ -1237,6 +1274,8 @@ Glueck Level 1
 
 Gesamt Verzauberungen: 4
 ```
+
+**Ausfuehren:** Klicke ▶ oben in `Verzauberung.java`.
 
 ### Quiz Lektion 6
 
@@ -1411,6 +1450,7 @@ Hexe - HP: 26, Schaden: 6, Drop: Trank
 
 **Kompilieren:** `javac src/MobInfo.java src/MobEnzyklopaedie.java`
 **Starten:** `java -cp src MobEnzyklopaedie`
+**Oder mit VS Code:** Klicke ▶ oben in `MobEnzyklopaedie.java`.
 
 ### Aufgabe 7.2: Block Register
 
@@ -1445,6 +1485,8 @@ Obsidian - Haerte: 10, Werkzeug: Diamantspitzhacke, Drop: Obsidian
 Haertester Block: Obsidian (Haerte: 10)
 ```
 
+**Ausfuehren:** Klicke ▶ oben in `BlockRegister.java`.
+
 ### Aufgabe 7.3: Server Rangliste
 
 **Ziel:** Erstelle `src/ServerRangliste.java` - Benutze die Spieler.java aus dem Code-Beispiel.
@@ -1478,6 +1520,8 @@ Durchschnittslevel: 30
 ```
 
 **Hinweis:** Durchschnitt berechnen: Addiere alle Level zusammen und teile durch die Anzahl Spieler (`register.size()`).
+
+**Ausfuehren:** Klicke ▶ oben in `ServerRangliste.java`.
 
 ### Quiz Lektion 7
 
@@ -1670,6 +1714,8 @@ Biom mit den meisten Mobs: Wald (4 Mobs)
 
 **Hinweis:** Benutze eine verschachtelte for-each Schleife: Zuerst durch die Biome (keySet), dann durch die Mob-Liste jedes Bioms.
 
+**Ausfuehren:** Klicke ▶ oben in `BiomMobs.java`.
+
 ### Aufgabe 8.2: Crafting-System
 
 **Ziel:** Erstelle `src/CraftingSystem.java` - Ein Crafting-System das HashMap und ArrayList kombiniert.
@@ -1707,6 +1753,8 @@ Ofen crafbar? NEIN (braucht 8x Stein, habe nur 6)
 ```
 
 **Hinweis:** Um zu pruefen ob ein Rezept crafbar ist, zaehle fuer jede Zutat wie oft sie im Rezept vorkommt und vergleiche mit dem Inventar. Das ist die groesste Herausforderung bisher! Tipp: Erstelle eine Hilfs-HashMap die zaehlt, wie oft jede Zutat im Rezept vorkommt.
+
+**Ausfuehren:** Klicke ▶ oben in `CraftingSystem.java`.
 
 ### Aufgabe 8.3: Mini Dungeon Loot Tabelle
 
@@ -1759,6 +1807,8 @@ Dungeon abgeschlossen!
 ```
 
 **Hinweis:** Benutze `gesammelterLoot.add(item)` in der inneren for-each Schleife, um jedes gefundene Item zur Gesamtliste hinzuzufuegen. Damit die Raeume in der richtigen Reihenfolge durchlaufen werden, erstelle eine extra `ArrayList<String>` mit den Raumnamen in der gewuenschten Reihenfolge.
+
+**Ausfuehren:** Klicke ▶ oben in `DungeonLoot.java`.
 
 ### Quiz Lektion 8
 

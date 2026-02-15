@@ -25,6 +25,12 @@
 
 ---
 
+## Programm ausfuehren
+
+Wie in Phase 2 und 3: Klicke ▶ oben in der Datei mit `main()` (ueber `public static void main`), oder nutze das Terminal.
+
+---
+
 ## Lektion 1: Scanner - Benutzereingabe von der Konsole
 
 **Dauer:** ca. 60-90 Minuten
@@ -91,6 +97,8 @@ Willkommen in der Welt, Steve!
 
 **Hinweis:** Benutze `System.out.print()` (ohne `ln`) fuer die Fragen, damit der Benutzer in der gleichen Zeile antworten kann. Vergiss nicht: Nach `nextInt()` ein extra `scanner.nextLine()` aufrufen, bevor du wieder `nextLine()` benutzt!
 
+**Ausfuehren:** Klicke ▶ oben in `SpielerRegistrierung.java`.
+
 ### Aufgabe 1.2: Schadensrechner mit Eingabe
 
 **Ziel:** Erstelle `src/SchadensrechnerInput.java`. Der Benutzer gibt Werte ein und das Programm berechnet den Schaden.
@@ -109,6 +117,8 @@ Gesamt-Schaden: 10
 Gegner-Ruestung: -4
 Effektiver Schaden: 6
 ```
+
+**Ausfuehren:** Klicke ▶ oben in `SchadensrechnerInput.java`.
 
 ### Aufgabe 1.3: Ja/Nein-Abfrage
 
@@ -132,6 +142,8 @@ if (antwort.equals("ja")) {
     // ...
 }
 ```
+
+**Ausfuehren:** Klicke ▶ oben in `JaNeinAbfrage.java`.
 
 ### Quiz Lektion 1
 
@@ -244,6 +256,8 @@ Gesamt: 8 Items geladen!
 
 **Hinweis:** Benutze einen Zaehler `int nummer = 1;` und erhoehe ihn in der Schleife.
 
+**Ausfuehren:** Klicke ▶ oben in `InventarLeser.java`.
+
 ### Aufgabe 2.2: Spieler-Daten aus Datei lesen
 
 **Ziel:** Erstelle `data/spieler.txt` und `src/SpielerLaden.java`.
@@ -278,6 +292,8 @@ String zeile = scanner.nextLine();
 int leben = Integer.parseInt(zeile);
 ```
 
+**Ausfuehren:** Klicke ▶ oben in `SpielerLaden.java`.
+
 ### Aufgabe 2.3: Highscore-Liste lesen
 
 **Ziel:** Erstelle `data/highscores.txt` und `src/HighscoreLeser.java`.
@@ -307,6 +323,8 @@ Anzahl Spieler: 5
 ```
 
 **Hinweis:** Du kannst `zeile.split(" - ")` benutzen, um den Namen und den Score zu trennen. Dann mit `Integer.parseInt()` den Score in eine Zahl umwandeln. Merke dir den hoechsten Wert in einer Variablen!
+
+**Ausfuehren:** Klicke ▶ oben in `HighscoreLeser.java`.
 
 ### Quiz Lektion 2
 
@@ -419,6 +437,8 @@ Steak
 
 **Hinweis:** Benutze eine for-Schleife ueber das Array und schreibe jedes Item mit `writer.write(item + "\n")`.
 
+**Ausfuehren:** Klicke ▶ oben in `InventarSpeichern.java`.
+
 ### Aufgabe 3.2: Spieler-Profil speichern
 
 **Ziel:** Erstelle `src/ProfilSpeichern.java`. Der Benutzer gibt seine Daten ein und sie werden in eine Datei gespeichert.
@@ -445,6 +465,8 @@ Name: Steve
 Level: 5
 XP: 1500
 ```
+
+**Ausfuehren:** Klicke ▶ oben in `ProfilSpeichern.java`.
 
 ### Aufgabe 3.3: Logbuch schreiben (Anhang-Modus)
 
@@ -482,6 +504,8 @@ while (weiter.equals("ja")) {
     weiter = scanner.nextLine();
 }
 ```
+
+**Ausfuehren:** Klicke ▶ oben in `Logbuch.java`.
 
 ### Quiz Lektion 3
 
@@ -602,6 +626,8 @@ Tipp: Pruefe ob die Datei im richtigen Ordner liegt.
 
 **Teste beide Faelle!** Aendere den Dateinamen zu einer Datei die nicht existiert.
 
+**Ausfuehren:** Klicke ▶ oben in `SichererLeser.java`.
+
 ### Aufgabe 4.2: Sichere Zahleneingabe
 
 **Ziel:** Erstelle `src/SichereEingabe.java`. Fange Fehler bei falschen Eingaben ab.
@@ -638,6 +664,8 @@ while (!gueltig) {
 }
 ```
 
+**Ausfuehren:** Klicke ▶ oben in `SichereEingabe.java`.
+
 ### Aufgabe 4.3: Datei lesen ODER erstellen
 
 **Ziel:** Erstelle `src/DateiOderNeu.java`. Wenn eine Datei nicht existiert, erstelle sie mit Standardwerten.
@@ -673,6 +701,8 @@ leben=20
 ```
 
 **Hinweis:** Im catch-Block benutzt du einen FileWriter, um die Datei zu erstellen. Der FileWriter braucht auch ein eigenes try/catch!
+
+**Ausfuehren:** Klicke ▶ oben in `DateiOderNeu.java`.
 
 ### Quiz Lektion 4
 
@@ -818,6 +848,8 @@ try {
 }
 ```
 
+**Ausfuehren:** Klicke ▶ oben in `ExceptionTester.java`.
+
 ### Aufgabe 5.2: Sichere Spieler-Daten laden
 
 **Ziel:** Erstelle `src/SicherLaden.java`. Lade Spieler-Daten aus einer Datei mit umfassender Fehlerbehandlung.
@@ -866,6 +898,8 @@ Lade Standardwerte...
 
 **Teste alle 3 Faelle!** Loesche die Datei, aendere eine Zahl zu Text, etc.
 
+**Ausfuehren:** Klicke ▶ oben in `SicherLaden.java`.
+
 ### Aufgabe 5.3: Fehler-Protokoll
 
 **Ziel:** Erstelle `src/FehlerProtokoll.java`. Schreibe aufgetretene Fehler in eine Log-Datei.
@@ -893,6 +927,8 @@ FEHLER 1: FileNotFoundException - phantom.txt (Das System kann die angegebene Da
 FEHLER 2: NumberFormatException - For input string: "keine_zahl"
 FEHLER 3: ArrayIndexOutOfBoundsException - Index 50 out of bounds for length 3
 ```
+
+**Ausfuehren:** Klicke ▶ oben in `FehlerProtokoll.java`.
 
 ### Quiz Lektion 5
 
@@ -1041,6 +1077,8 @@ Staerkster Angriff: Creeper mit 25 Schaden
 
 **Hinweis:** Fuer die Tabelle reicht einfacher Text mit Leerzeichen. Berechne die Statistiken mit Variablen die du in der Schleife aktualisierst!
 
+**Ausfuehren:** Klicke ▶ oben in `MobDatenbank.java`.
+
 ### Aufgabe 6.2: Item-Shop aus CSV
 
 **Ziel:** Erstelle `data/shop.csv` und `src/ItemShop.java`.
@@ -1087,6 +1125,8 @@ Nicht genug Gold! Du brauchst 250, hast aber nur 100.
 
 **Hinweis:** Speichere die geladenen Daten in Arrays (oder ArrayList wenn du dich an Phase 3 erinnerst) und benutze die Nummer als Index!
 
+**Ausfuehren:** Klicke ▶ oben in `ItemShop.java`.
+
 ### Aufgabe 6.3: Highscore-Analyse
 
 **Ziel:** Erstelle `data/highscores.csv` und `src/HighscoreAnalyse.java`.
@@ -1122,6 +1162,8 @@ Anzahl Spieler: 5
 ```
 
 **Hinweis:** Sortieren ist hier optional. Wenn du es versuchen willst, sammle erst alle Daten in Arrays, dann sortiere. Sonst gib die Daten unsortiert aus und finde trotzdem die Statistiken!
+
+**Ausfuehren:** Klicke ▶ oben in `HighscoreAnalyse.java`.
 
 ### Quiz Lektion 6
 
@@ -1240,6 +1282,8 @@ int[] anzahlen = {1, 1, 64, 32, 16};
 String[] typen = {"Waffe", "Werkzeug", "Block", "Nahrung", "Spezial"};
 ```
 
+**Ausfuehren:** Klicke ▶ oben in `InventarCSV.java`.
+
 ### Aufgabe 7.2: Spieler-Eingabe in CSV speichern
 
 **Ziel:** Erstelle `src/SpielerCSV.java`. Der Benutzer gibt Spieler-Daten ein, die in CSV gespeichert werden.
@@ -1283,6 +1327,8 @@ Steve,5,1500,Krieger
 Alex,12,5000,Baumeister
 ```
 
+**Ausfuehren:** Klicke ▶ oben in `SpielerCSV.java`.
+
 ### Aufgabe 7.3: Lesen, Aendern, Speichern
 
 **Ziel:** Erstelle `src/DatenEditor.java`. Lese eine CSV-Datei, aendere Werte und speichere sie zurueck.
@@ -1319,6 +1365,8 @@ Aktualisierte Daten:
 1. Erst alle Zeilen lesen und in Arrays speichern
 2. Den gewuenschten Eintrag im Array aendern
 3. Alle Eintraege wieder in die Datei schreiben
+
+**Ausfuehren:** Klicke ▶ oben in `DatenEditor.java`.
 
 ### Quiz Lektion 7
 
@@ -1526,6 +1574,8 @@ String[] schluessel = {"spielername", "schwierigkeit", "max_leben", "pvp_aktiv"}
 String[] werte = {"Steve", "normal", "20", "false"};
 ```
 
+**Ausfuehren:** Klicke ▶ oben in `MeineConfig.java`.
+
 ### Aufgabe 8.2: Config-Klasse erstellen
 
 **Ziel:** Erstelle `src/GameConfig.java` (die Klasse) und `src/ConfigTest.java` (der Test).
@@ -1573,6 +1623,8 @@ Spielername: ProGamer
 Schwierigkeit: hard
 Alles korrekt gespeichert und geladen!
 ```
+
+**Ausfuehren:** Klicke ▶ oben in `ConfigTest.java`.
 
 ### Aufgabe 8.3: Interaktiver Config-Editor
 
@@ -1636,6 +1688,8 @@ while (laeuft) {
     // ...
 }
 ```
+
+**Ausfuehren:** Klicke ▶ oben in `ConfigEditor.java`.
 
 ### Quiz Lektion 8
 

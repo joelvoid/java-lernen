@@ -25,6 +25,23 @@
 
 ---
 
+## Neu ab Phase 2: Programm ausfuehren mit VS Code
+
+In Phase 1 hast du Programme mit `javac` und `java` im Terminal gestartet. Das hast du jetzt drauf!
+
+Ab jetzt kannst du es dir einfacher machen: VS Code hat einen **Play-Button** (▶) direkt im Code.
+
+**So geht's:**
+1. Oeffne die Datei mit `main()` (z.B. `SpielerTest.java`)
+2. Klicke auf ▶ **Run** oben rechts oder ueber `public static void main`
+3. Das Programm startet automatisch - auch wenn du mehrere Dateien hast!
+
+**Was passiert im Hintergrund?** VS Code macht `javac` und `java` automatisch fuer dich - genau das was du in Phase 1 von Hand gemacht hast.
+
+**Tipp:** Du kannst natuerlich weiterhin das Terminal benutzen wenn du willst!
+
+---
+
 ## Lektion 1: Klassen und Objekte verstehen
 
 ### Konzept
@@ -111,6 +128,7 @@ Erfahrung: 1200
 
 **Kompilieren:** `javac src/Spieler.java src/SpielerTest.java`
 **Starten:** `java -cp src SpielerTest`
+**Oder mit VS Code:** Klicke ▶ oben in `SpielerTest.java` (ueber `main`).
 
 ### Aufgabe 1.2: Mehrere Objekte
 
@@ -139,6 +157,8 @@ Level: [Dein Level]
 Erfahrung: [Deine XP]
 ```
 
+**Ausfuehren:** Klicke ▶ oben in `SpielerTest.java` (ueber `main`).
+
 ### Aufgabe 1.3: Mob-Klasse
 
 **Ziel:** Erstelle `src/Mob.java` und `src/MobTest.java`.
@@ -161,6 +181,8 @@ Zombie greift an und macht 5 Schaden!
 Skelett greift an und macht 4 Schaden!
 Creeper greift an und macht 25 Schaden!
 ```
+
+**Ausfuehren:** Klicke ▶ oben in `MobTest.java` (ueber `main`).
 
 ### Quiz Lektion 1
 
@@ -269,6 +291,8 @@ Leben: 20
 Level: 12
 ```
 
+**Ausfuehren:** Klicke ▶ oben in `SpielerTest.java` (ueber `main`).
+
 ### Aufgabe 2.2: Mob mit Konstruktor
 
 **Ziel:** Ueberarbeite `src/Mob.java` mit Konstruktor.
@@ -293,6 +317,8 @@ mobs[2] = new Mob("Creeper", 20, 25);
 [3] Creeper (HP: 20, Schaden: 25)
 ```
 
+**Ausfuehren:** Klicke ▶ oben in `MobTest.java` (ueber `main`).
+
 ### Aufgabe 2.3: Werkzeug-Klasse
 
 **Ziel:** Erstelle `src/Werkzeug.java` und `src/WerkzeugTest.java`.
@@ -316,6 +342,8 @@ Holzschwert benutzt! Haltbarkeit: 59
 Holzschwert benutzt! Haltbarkeit: 58
 Holzschwert benutzt! Haltbarkeit: 57
 ```
+
+**Ausfuehren:** Klicke ▶ oben in `WerkzeugTest.java` (ueber `main`).
 
 ### Quiz Lektion 2
 
@@ -417,6 +445,8 @@ Block: Holz
   Abbaubar: true
 ```
 
+**Ausfuehren:** Klicke ▶ oben in `BlockTest.java` (ueber `main`).
+
 ### Aufgabe 3.2: this in Methoden
 
 **Ziel:** Erstelle `src/Truhe.java` und `src/TruheTest.java`.
@@ -439,6 +469,8 @@ Truhe "Vorratskiste" geschlossen.
 Schatzkiste: OFFEN - Inhalt: Diamanten
 Vorratskiste: GESCHLOSSEN
 ```
+
+**Ausfuehren:** Klicke ▶ oben in `TruheTest.java` (ueber `main`).
 
 ### Aufgabe 3.3: Methoden die das eigene Objekt veraendern
 
@@ -465,6 +497,8 @@ Diamant-Brustplatte (Schutz: 8, Haltbarkeit: 378/528)
 Repariert!
 Diamant-Brustplatte (Schutz: 8, Haltbarkeit: 528/528)
 ```
+
+**Ausfuehren:** Klicke ▶ oben in `RuestungTest.java` (ueber `main`).
 
 ### Quiz Lektion 3
 
@@ -574,6 +608,8 @@ Leben auf -5 gesetzt: Ungueltiger Wert! Leben bleibt: 15
 Level auf 0 gesetzt: Ungueltiger Wert! Level bleibt: 5
 ```
 
+**Ausfuehren:** Klicke ▶ oben in `SpielerTest.java` (ueber `main`).
+
 ### Aufgabe 4.2: Item-Klasse mit Kontrolle
 
 **Ziel:** Erstelle `src/Item.java` und `src/ItemTest.java`.
@@ -598,6 +634,8 @@ Diamanten x10 (max: 64)
 10 entfernt: Diamanten x5
 20 entfernt: Kann nicht! Minimum ist 0. Diamanten x5
 ```
+
+**Ausfuehren:** Klicke ▶ oben in `ItemTest.java` (ueber `main`).
 
 ### Aufgabe 4.3: Erfahrungssystem
 
@@ -628,6 +666,8 @@ LEVEL UP! Du bist jetzt Level 3!
 LEVEL UP! Du bist jetzt Level 4!
 Level: 4, XP: 10/100
 ```
+
+**Ausfuehren:** Klicke ▶ oben in `ErfahrungTest.java` (ueber `main`).
 
 ### Quiz Lektion 4
 
@@ -744,6 +784,8 @@ Zombie greift Held an!
 Held nimmt 8 Schaden! HP: 76/100
 ```
 
+**Ausfuehren:** Klicke ▶ oben in `KampfTest.java` (ueber `main`).
+
 ### Aufgabe 5.2: Tauschsystem
 
 **Ziel:** Erstelle ein System wo Spieler Items tauschen koennen.
@@ -767,6 +809,8 @@ Steve kauft Diamant von Bob fuer 30 Gold!
 Steve: Gold: 70, Item: Diamant
 Haendler Bob: Gold: 80, Item: Schwert
 ```
+
+**Ausfuehren:** Klicke ▶ oben in `HandelTest.java` (ueber `main`).
 
 ### Aufgabe 5.3: Rezept-System
 
@@ -795,6 +839,8 @@ Vorrat: 5x Kohle, 0x Stock
 Kann craften? false
 Nicht genug Zutaten!
 ```
+
+**Ausfuehren:** Klicke ▶ oben in `RezeptTest.java` (ueber `main`).
 
 ### Quiz Lektion 5
 
@@ -900,6 +946,8 @@ Skelett (HP: 20, Schaden: 4) - Bogen: true
 Creeper (HP: 20, Schaden: 25) - Explosionsradius: 3
 ```
 
+**Ausfuehren:** Klicke ▶ oben in `MobArena.java` (ueber `main`).
+
 ### Aufgabe 6.2: Werkzeug-Vererbung
 
 **Ziel:** Erstelle eine Werkzeug-Hierarchie.
@@ -920,6 +968,8 @@ Creeper (HP: 20, Schaden: 25) - Explosionsradius: 3
 Diamant-Schwert (Diamant) - Haltbarkeit: 1561, Schaden: 7
 Eisen-Spitzhacke (Eisen) - Haltbarkeit: 251, Geschwindigkeit: 6
 ```
+
+**Ausfuehren:** Klicke ▶ oben in `WerkzeugTest.java` (ueber `main`).
 
 ### Aufgabe 6.3: protected verstehen
 
@@ -1018,6 +1068,8 @@ Skelett schiesst einen Pfeil! 4 Schaden!
 Creeper explodiert! BOOM! 25 Schaden!
 ```
 
+**Ausfuehren:** Klicke ▶ oben in `MobArena.java` (ueber `main`).
+
 ### Aufgabe 7.2: Verschiedene zeigeInfo()
 
 **Ziel:** Jede Mob-Klasse zeigt ihre Info anders an.
@@ -1035,6 +1087,8 @@ Creeper explodiert! BOOM! 25 Schaden!
 [Skelett] HP: 20 | Schaden: 4 | Pfeile: 64
 [Creeper] HP: 20 | Schaden: 25 | Radius: 3 | !! GEFAHR !!
 ```
+
+**Ausfuehren:** Klicke ▶ oben in `MobArena.java` (ueber `main`).
 
 ### Aufgabe 7.3: Mob-Array mit verschiedenen Typen
 
@@ -1059,6 +1113,8 @@ Skelett schiesst einen Pfeil! 4 Schaden!
 Creeper explodiert! BOOM! 25 Schaden!
 Baby-Zombie schlaegt zu! 4 Schaden!
 ```
+
+**Ausfuehren:** Klicke ▶ oben in `MobArena.java` (ueber `main`).
 
 ### Quiz Lektion 7
 
@@ -1166,6 +1222,8 @@ Held: 75/100 HP
 === SIEG! Alle Gegner besiegt! ===
 ```
 
+**Ausfuehren:** Klicke ▶ oben in `RPGTest.java` (ueber `main`).
+
 ### Aufgabe 8.3: Features hinzufuegen
 
 **Ziel:** Erweitere dein RPG mit einem dieser Features:
@@ -1175,6 +1233,8 @@ Held: 75/100 HP
 **Option C:** Spieler bekommt XP nach jedem Kill und levelt auf
 
 **Waehle EINE Option und implementiere sie!**
+
+**Ausfuehren:** Klicke ▶ oben in `RPGTest.java` (ueber `main`).
 
 ### Quiz Lektion 8
 
